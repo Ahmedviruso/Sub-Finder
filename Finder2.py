@@ -1,5 +1,4 @@
-# This Version Save Only Working Sub-Domains
-# Subdomain Finder By AhmedViruso
+# Subdomain Finder v2 By AhmedViruso (This Version Save Only Working Sub-Domains)
 # Interpreter: Python 3.10.4
 # Os: Windows 10 Home
 
