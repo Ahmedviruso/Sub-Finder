@@ -1,3 +1,4 @@
+# Noitce: Don't forget to delete all "result" files when u want to scan again
 # Subdomain Finder v3 By AhmedViruso
 # Interpreter: Python 3.10.4
 # Os: Windows 10 Home
