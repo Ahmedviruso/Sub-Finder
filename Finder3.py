@@ -1,5 +1,3 @@
-# Don't forget to delete all "result" files when u want to scan again
-
 # Subdomain Finder v3 By AhmedViruso
 # Interpreter: Python 3.10.4
 # Os: Windows 10 Home
@@ -21,7 +19,11 @@ def Grab(Value):
 List = []
 def Analyse(Host,Name):
   print("Scanning: {}".format(Host))
-  Json = Grab(Host)
+  try:
+    Json = Grab(Host)
+  except Exception:
+    print("Error Happened")
+    return
   for Object in Json:
     Grabbed = Object["name_value"].split("\n")
     for Url in Grabbed:
